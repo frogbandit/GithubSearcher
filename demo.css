@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 50px solid green;
+}
+
+div{
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	border: 2px solid black;
+}
+
+.first{
+	margin-left: 20px;
+}
+
+.second{
+	margin-top: 50px;
+	margin-left: 5px;
+	padding: 20px;
+}
+
+.third{
+	margin: -25px 0 10px -25px;
+	padding-top: 20px;
+}

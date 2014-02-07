@@ -1,13 +1,15 @@
-<h1>Hello World!</h1>
+{% extends "base.html" %}
+<!-- hello.html -->
+{% block title %}Welcome | Has it Been Made Yet?{% endblock %}
 
-<p>This is <em><strong>very</strong> important</em></p>
-
-<h2>Check out ADI's website here</h2>
-<a href="http://adicu.com">http://adicu.com</a>
-
-<h3>Also this:</h3>
-
-<p>This
-and this
-and this
-are all related</p>
+{% block body %}
+<div class="row splash-page">
+  <div class="medium-9 medium-centered columns">
+    <div class="panel">
+      <h1>Has it Been Made Yet?</h1>
+      <h2>A tool for hackers with "unique" ideas.</h2>
+      <a class="button" href="/search">Launch</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    /* feel free to use any image you want.  The url() function will take local or internet images */
+    background-image: url(http://i0.wp.com/devleader.ca/wp-content/uploads/2014/01/php_code.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.splash-page .panel {
+	margin-top: 10%;
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+}
+
+body {
+    padding-top: 20px;
+    background: black url(http://i0.wp.com/devleader.ca/wp-content/uploads/2014/01/php_code.jpg) no-repeat fixed center center;
+}
